@@ -8,10 +8,15 @@
   $x= 10;
   $y= 7;
 
-  echo($x + $y); 
-  echo($x - $y);
-  echo($x * $y);
-  echo($x / $y);
+  echo $x ." + " . $y . " = " . ($x + $y);
+  echo $x ." - " . $y . " = " . ($x + $y);
+  echo $x ." * " . $y . " = " . ($x + $y);
+  echo $x ." / " . $y . " = " . ($x + $y);
+
+  echo($x + $y) . "<br>"; 
+  echo($x - $y) . "<br>";
+  echo($x * $y) . "<br>";
+  echo($x / $y) . "<br>";
  
  ?> 
  </body>
